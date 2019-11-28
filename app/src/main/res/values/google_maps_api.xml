@@ -1,0 +1,27 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=4C:68:B0:F9:48:18:C1:35:92:0E:71:62:52:AF:AF:06:8A:61:76:56%3Bcom.app.flamingo.flamingomobility
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    4C:68:B0:F9:48:18:C1:35:92:0E:71:62:52:AF:AF:06:8A:61:76:56
+
+    SHA-1 certificate fingerprint:
+    4C:68:B0:F9:48:18:C1:35:92:0E:71:62:52:AF:AF:06:8A:61:76:56
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+    // Matthew key :: AIzaSyANxXZwcyrszDY0KTfqxL22TtBqFhdJODY
+    // new generated key Maggie:  AIzaSyBhNxGRBU1fd0-GX-nUS878C3lRrcAlOr8
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA7soeMuvi-kHn7NXLHLQBxHExyGdM7L2I</string>
+    <string name="google_maps_api_key">AIzaSyA7soeMuvi-kHn7NXLHLQBxHExyGdM7L2I</string>
+</resources>
