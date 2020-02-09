@@ -23,7 +23,8 @@
         android:alpha=".8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/flamingo_logo" />
+        app:srcCompat="@drawable/nsl_logo_white" />
+<!--        FLAMINGO LOGO IS MISSING-->
 
     <TextView
         android:layout_width="212dp"
