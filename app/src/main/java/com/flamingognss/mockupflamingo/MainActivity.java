@@ -86,7 +86,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         createWidgets();
         addGoogleMap();
 
-        // implement Flamingo
+        // implement Flamingo --> TODO change to get live FLAMINGO working
         FlamingoManager mFlamingoManager = new FlamingoManager(this);
         mFlamingoManager.registerFlamingoService("flamingo_application", "flamingo_password", "flamingo_companyId", ApplicationType.VEHICLE_NAVIGATION, this);
     }

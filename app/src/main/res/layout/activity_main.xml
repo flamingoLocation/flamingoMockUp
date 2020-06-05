@@ -6,37 +6,41 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:map="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <fragment
         android:id="@+id/map"
         android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="64dp" />
+
     <ImageView
         android:id="@+id/iNslLogoId"
-        android:layout_width="60dp"
-        android:layout_height="45dp"
+        android:layout_width="69dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="12dp"
         android:alpha=".8"
-        android:layout_margin="12dp"
-        android:src="@drawable/nsl_logo_white"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="@drawable/nsl_logo_white" />
+<!--        FLAMINGO LOGO IS MISSING-->
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="40dp"
-        app:layout_constraintStart_toEndOf="@id/iNslLogoId"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="212dp"
+        android:layout_height="50dp"
         android:layout_margin="12dp"
-        android:textColor="#fff"
-        android:text="Flamingo Demo"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:alpha=".5"
         android:gravity="center"
-        android:textStyle="italic"
-        android:alpha=".8"
-        android:textAllCaps="true"
+        android:text="FLAMINGO mock-up "
+        android:textAllCaps="false"
+        android:textColor="#636B6D"
 
-        />
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/iZoomFlamingoLocationId"
@@ -73,22 +77,5 @@
             android:layout_marginRight="10dp"
             android:text="Flamingo" />
 
-        <ImageView
-            android:id="@+id/iSppDotId"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
-            android:padding="5dp"
-            android:src="@drawable/circle_green"
-
-            />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_marginRight="10dp"
-            android:text="SPP" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
